@@ -51,5 +51,101 @@
     padding-bottom: 30px;
 }
 
+@media (max-width: 1024px) {
+    .jumbo-content {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .jumbo-texts {
+        width: 80%; 
+        text-align: center;
+    }
 
+    .jumbo-texts h1 {
+        font-size: 36px;
+    }
+
+    .jumbo-texts p {
+        font-size: 14px; 
+    }
+
+    .jumbo-button {
+        font-size: 14px; 
+        padding: 16px 24px; 
+    }
+
+    .jumbo-image {
+        padding-top: 30px; 
+        align-items: center;
+    }
+
+    .scrooldwn img,
+    .share img {
+        max-width: 30px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbo-content {
+        flex-direction: column;
+        padding: 40px;
+        align-items: center;
+    }
+
+    .jumbo-texts {
+        width: 100%;
+        text-align: center;
+    }
+
+    .jumbo-texts h1 {
+        font-size: 30px; 
+    }
+
+    .jumbo-texts p {
+        font-size: 13px; 
+    }
+
+    .jumbo-button {
+        font-size: 14px;
+        padding: 12px 20px; 
+    }
+
+    .jumbo-image {
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .scrooldwn img,
+    .share img {
+        max-width: 25px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .jumbo-content {
+        padding: 20px;
+    }
+
+    .jumbo-texts h1 {
+        font-size: 24px; 
+    }
+
+    .jumbo-texts p {
+        font-size: 12px; 
+    }
+
+    .jumbo-button {
+        font-size: 12px;
+        padding: 8px 12px; 
+    }
+
+    .jumbo-image {
+        padding-top: 10px;
+    }
+
+    .scrooldwn img,
+    .share img {
+        max-width: 20px;
+    }
+}

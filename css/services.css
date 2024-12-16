@@ -12,9 +12,51 @@
 }
 
 .services-images {
-    padding-top: 60px;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images-texts1 {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .images-texts1 {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-images {
+        justify-content: center;
+    }
+
+    .images-texts1 {
+        width: 48%;
+    }
+
+    .services-content h1 {
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-images {
+        justify-content: center; 
+    }
+
+    .images-texts1 {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .services-content h1 {
+        font-size: 20px; 
+        padding-bottom: 15px; 
+    }
 }
 
 

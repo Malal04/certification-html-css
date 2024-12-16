@@ -27,6 +27,11 @@
     text-decoration: none;
 }
 
+.news-button:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
 .buuut{
     padding-top: 50px;
     text-align: center;
@@ -35,20 +40,19 @@
 .new-images {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    width:50%;
+    gap: 20px;
+    width: 90%;
 }
 
 .new-image {
     background-color: #ffffff;
     border-radius: 8px;
+    width: 90%; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tetet {
-    padding-top: 23px;
-    padding-left: 23px;
-    padding-left: 17px;
-    padding-bottom: 17px;
+    padding: 23px 17px 17px 23px;
 }
 
 .tetet h4 {
@@ -58,7 +62,6 @@
     font-weight: 800;
     left: 25px;
 }
-
 
 .calendre {
     display: flex;
@@ -75,3 +78,45 @@
     font-weight: 700;
 }
 
+.news-image {
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+@media (max-width: 1200px) {
+    .new-image {
+        width: 48%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .new-images {
+        justify-content: center;
+    }
+
+    .new-image {
+        width: 100%;
+    }
+
+    .new-content h2 {
+        font-size: 24px;
+        padding-bottom: 40px; 
+    }
+
+    .news-button {
+        padding: 16px 30px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .new-content h2 {
+        font-size: 20px; 
+        padding-bottom: 20px; 
+    }
+
+    .news-button {
+        font-size: 14px; 
+        padding: 16px 24px;
+    }
+}
