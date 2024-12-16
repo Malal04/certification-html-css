@@ -1,0 +1,18 @@
+.section-mission {
+    background: url('../image/Group13.png') no-repeat center top ;
+    background-size: cover;
+}
+
+.mission {
+    padding-top: 375px;
+}
+
+.mission-content {
+    background-color: #00334D;
+    width: 60%;
+}
+
+.mision-images{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,55 @@
+.jumbo{
+    background:url('../image/background.png') no-repeat black center top ;
+    background-size: cover;
+}
+
+.jumbo-content {
+    padding-top: 205px;
+}
+
+.jumbo-texts {
+    color: #ffffff;
+    width: 60%;
+}
+
+.jumbo-texts h1 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    padding-bottom: 16px;
+}
+
+.jumbo-texts p {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.jumbo-button {
+    font-family: "Schibsted Grotesk", sans-serif;
+    background: #005680;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 24px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.jumbo-button:hover {
+    background: #ffffff;
+    color: #000000;
+
+}
+
+.jumbo-image {
+    padding-top: 94px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+
+

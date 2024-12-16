@@ -1,0 +1,59 @@
+.section-welcome {
+    padding: 100px 0;
+}
+
+.welcom-texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+
+.text-content h2 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #00334D;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 16px;
+    line-height: 25px;
+}
+
+.text-content p {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #595959;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 24px;
+    line-height: 30px;
+}
+
+.welcom-numero {
+    padding-top: 60px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.numero {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.numoro-text h3{
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #005680;
+    font-size: 64px;
+    font-weight: 900;
+
+}
+
+.numoro-text p {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #595959;
+    font-size: 16px;
+    font-weight: 500;   
+
+}

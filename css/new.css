@@ -1,0 +1,77 @@
+.section-new {
+    background-color: #F5F5F5;
+}
+
+.section-new .new-content {
+    padding: 100px 0;
+}
+
+.new-content h2 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #00334D;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 60px;
+    line-height: 27px;
+}
+
+.news-button {
+    display: inline-block;
+    font-family: "Schibsted Grotesk", sans-serif;
+    background: #005680;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 24px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.buuut{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.new-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width:50%;
+}
+
+.new-image {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.tetet {
+    padding-top: 23px;
+    padding-left: 23px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+}
+
+.tetet h4 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #005680;
+    font-size: 16px;
+    font-weight: 800;
+    left: 25px;
+}
+
+
+.calendre {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 12px;
+}
+
+.calendre-text p {
+    margin: 0;
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #595959;
+    font-size: 16px;
+    font-weight: 700;
+}
+

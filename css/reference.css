@@ -1,0 +1,12 @@
+.reference-content{
+    padding: 100px 0px;
+}
+
+.reference-content h2 {
+    font-family: "Schibsted Grotesk", sans-serif;
+    color: #00334D;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 60px;
+    line-height: 27px;
+}
